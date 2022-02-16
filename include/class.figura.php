@@ -18,8 +18,8 @@
                     </div> 
                 </td>
 					<td>
-						<div class="form-group">
-						<select name="tipo" id="tipo" OnChange="activarTxt()">
+						<div class="form-group ">
+						<select class="form-select" name="tipo" id="tipo" OnChange="activarTxt()">
 							<option value="sel">Seleccione...</option>
 							<option value="cuadrado">Cuadrado</option>
 							<option value="rectangulo">Rectángulo</option>
@@ -32,32 +32,35 @@
 					</td>
 				</tr>
 				<tr>
+				<td>&nbsp</td>
+				</tr>
+				<tr>
 					<div class="form-group">
 					<td id="txt1">Lado 1:</td>
-					<td><input type="text" name="lado_1" id="lado_1" size="4" disabled></td>
+					<td><input class="form-control" type="text" name="lado_1" id="lado_1" size="4" disabled></td>
 					</div>
 				</tr>
 				<tr>
 					<div class="form-group">
 					<td id="txt2">Lado 2:</td>
-					<td><input type="text" name="lado_2" id="lado_2" size="4" disabled></td>
+					<td><input class="form-control" type="text" name="lado_2" id="lado_2" size="4" disabled></td>
 				</tr>
 				<tr>
 					<div class="form-group">
 					<td id="txt3">Lado 3:</td>
-					<td><input type="text" name="lado_3" id="lado_3" size="4" disabled></td>
+					<td><input class="form-control" type="text" name="lado_3" id="lado_3" size="4" disabled></td>
 					</div>
 				</tr>
 				<tr>
 					<div class="form-group">
 					<td id="txt4">Lado 4:</td>
-					<td><input type="text" name="lado_4" id="lado_4" size="4" disabled></td>
+					<td><input class="form-control" type="text" name="lado_4" id="lado_4" size="4" disabled></td>
 					</div>
 				</tr>	
 				<tr>
 					<div class="form-group">
 					<td id="txt4">Altura:</td>
-					<td><input type="text" name="altura" id="altura" size="4" disabled></td>
+					<td><input class="form-control" type="text" name="altura" id="altura" size="4" disabled></td>
 					</div>
 				</tr>						
 				<tr>
