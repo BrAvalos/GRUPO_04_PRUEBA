@@ -54,6 +54,7 @@ function activarTxt() {
 	}
 }
 function cambiarNombreTxt(){
+	document.getElementById("txt1").innerHTML = "Lado 1: ";
 	document.getElementById("txt2").innerHTML = "Lado 2: ";
 	document.getElementById("txt3").innerHTML = "Lado 3: ";
 }
