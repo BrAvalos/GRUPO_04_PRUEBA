@@ -30,7 +30,7 @@
 				default: header("location:index.php");
 			}
 			mostrar($f);
-			echo '<br><br><button class="btn btn-warning"><a style="text-decoration: none; color: black;" href="index.php">REGRESAR</a></button>';
+			echo '<br><a style="text-decoration: none; color: white;" href="index.php"><button class="btn btn-danger">REGRESAR</button></a>';
 		}else{
 			echo figura::get_form();
 		}
@@ -39,8 +39,8 @@
 		function mostrar(formulas $fig){
 			$fig->area();
 			$fig->perimetro();
-			echo "El área del " . $fig->GetTipo() . " es: " . $fig->GetArea();
-			echo "<br>El perímetro del " . $fig->GetTipo() . " es: " . $fig->GetPerimetro();
+			echo "<br><p>El área del " . $fig->GetTipo() . " es: " . $fig->GetArea()."</p>";
+			echo "<p>El perímetro del " . $fig->GetTipo() . " es: " . $fig->GetPerimetro()."</p>";
 		}
 	?>
 	
